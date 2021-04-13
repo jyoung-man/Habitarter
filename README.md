@@ -1,2 +1,2 @@
-# Habitarter
-Habitarter: 아두이노의 감지 센서를 이용한 생활 습관 보조 앱
+# SmartRod
+SmartRod: 딥러닝 등의 방법을 이용하여 시각장애인의 캠퍼스 내 독립보행을 도와주는 스마트폰 앱
