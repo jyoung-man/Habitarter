@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Caller_connect">
+
+    <LinearLayout
+        android:id="@+id/calSoo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="@string/tel"
+        android:clickable="true"
+        android:onClick="call">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#DC000000"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:text="@string/name"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#03A9F4"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:text="@string/address" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#03A9F4"
+        android:gravity="center"
+        android:text="@string/tel"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
